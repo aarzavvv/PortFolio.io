@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | By:Aarzav</title>
+
+<!--Using TailWind CSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans overflow-hidden">
+
+<!--Head-->
+    <header>
+        <nav class="flex items-center justify-between bg-black shadow-md">
+            <div class="container mx-auto py-4 px-6 flex items-center">
+                <img src="data/logo.png" class="h-12 w-12">
+                <h1 class="text-2xl text-white font-semibold ml-4">Reference</h1>
+            </div>
+        </nav>
+    </header>
+
+<!--Navigation Bar-->
+    <nav class="bg-gray-500 text-white">
+        <div class="container mx-auto py-2 px-6">
+            <ul class="flex">
+                <li><a href="javascript:history.back()" class="px-4 py-2 hover:text-gray-900">Home</a></li>
+                <li><a href="about.html" class="px-4 py-2 hover:text-gray-900">About</a></li>
+                <li><a href="mailto:jaarzavofficial@gmail.com" class="px-4 py-2 hover:text-gray-900">Contact</a></li>
+                <li><a href="#" class="rounded hover: bg-white text-black px-4 py-2 hover:text-gray-900">Reference</a></li>
+            </ul>
+        </div>
+    </nav>
+ 
+<!--Maal-->
+    <section class="flex flex-col items-center justify-between my-6 px-4">
+        <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+                <div class="h-full border-4 border-gray-500 rounded-lg overflow-hidden">
+                    <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">References</h1>
+                    <p class="leading-relaxed mb-3x">
+                        <a href="https://www.w3schools.com/html/" class="px-4 py-2 hover:text-gray-900" alt="For HTML tags">W3Schools</a>
+                        <a href="https://www.geeksforgeeks.org/how-to-redirect-browser-window-back-using-javascript/" 
+                            class="px-4 py-2 hover:text-gray-900" alt="For JS methods">Geeks-For-Geeks</a>
+                        <a href="https://tailwindcss.com/" class="px-4 py-2 hover:text-gray-900" alt="For CSS styles">TailWind CSS</a>
+                    </p>
+                </div>
+        </div>
+    </section>
+
+<!--Footer-->
+    <footer class="bg-gray-500 text-white py-6 fixed bottom-0 w-full">
+        <div class="text-center block mb-4 px-4 py-2 rounded">
+            <a href="Data/Resume.pdf" download class="download-btn rounded hover: bg-white text-black px-4 py-2 hover:text-gray-900">Download Resume</a>
+        </div>
+        <div class="container mx-auto text-center">
+            &copy; 2024 Project Showcase
+        </div>
+    </footer>
+
+</body>
+</html>

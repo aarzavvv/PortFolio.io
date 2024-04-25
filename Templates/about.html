@@ -12,10 +12,13 @@
 <body class="font-sans overflow-hidden">
 
 <!--Head-->
-    <header class="bg-black shadow-md">
-        <div class="container mx-auto py-4 px-6">
-            <h1 class="text-2xl text-white font-semibold">Home Page</h1>
-        </div>
+    <header>
+        <nav class="flex items-center justify-between bg-black shadow-md">
+            <div class="container mx-auto py-4 px-6 flex items-center">
+                <img src="data/logo.png" class="h-12 w-12">
+                <h1 class="text-2xl text-white font-semibold ml-4">About</h1>
+            </div>
+        </nav>
     </header>
 
 <!--Navigation Bar-->
@@ -25,30 +28,23 @@
                 <li><a href="javascript:history.back()" class="px-4 py-2 hover:text-gray-900">Home</a></li>
                 <li><a href="#" class="rounded hover: bg-white text-black px-4 py-2 hover:text-gray-900">About</a></li>
                 <li><a href="mailto:jaarzavofficial@gmail.com" class="px-4 py-2 hover:text-gray-900">Contact</a></li>
-                <li><a href="#" class="px-4 py-2 hover:text-gray-900">Help</a></li>
+                <li><a href="reference.html" class="px-4 py-2 hover:text-gray-900">Reference</a></li>
             </ul>
         </div>
     </nav>
-        
-<!--Side Menu Bar-->
-    <div id="container" class="flex">
-        <div id="menu" class="w-1/8 h-screen bg-gray-600 text-white p-4 overflow-y-auto">
-            <a href="https://github.com/aarzavvv" class="block mb-4 px-4 py-2 rounded transition duration-300 hover:bg-black">GitHub</a>
-            <a href="https://www.linkedin.com/in/aarzav-jain/" class="block mb-4 px-4 py-2 rounded transition duration-300 hover:bg-black">LinkedIn</a>
-        </div>
-        
+ 
 <!--Maal-->
         <main class="w-7/8">
             <section class="container mx-auto my-6 px-4">
                     <div class="flex flex-wrap -mx-4 -mb-10 text-center">
                         <div class="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
-                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                                <img class="object-cover object-center h-full w-full" src="https://dummyimage.com/600x360" alt="Company Image">
+                            <div class="h-full border-2 border-gray-500 rounded-lg overflow-hidden">
+                                <img class="object-cover object-center h-full w-full" src="data/CoverImage.jpg">
                             </div>
                         </div>
 
                         <div class="w-full lg:w-1/2 px-4 mb-10 lg:mb-0">
-                            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <div class="h-full border-2 border-gray-500 rounded-lg overflow-auto">
                                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">About Me</h1>
                                 <p class="leading-relaxed mb-3">Hello Peeps!! I'm Aarzav Jain. I created this page to showcase 
                                     all my projects (minor or major) at one stop. <b>This website is also one of the projects 
@@ -59,12 +55,11 @@
                     </div>
             </section>
         </main>
-    </div>
 
 <!--Footer-->
     <footer class="bg-gray-500 text-white py-6 fixed bottom-0 w-full">
         <div class="text-center block mb-4 px-4 py-2 rounded">
-            <a href="Resume.pdf" download class="download-btn rounded hover: bg-white text-black px-4 py-2 hover:text-gray-900">Download Resume</a>
+            <a href="data/Resume.pdf" download class="download-btn rounded hover: bg-white text-black px-4 py-2 hover:text-gray-900">Download Resume</a>
         </div>
         <div class="container mx-auto text-center">
             &copy; 2024 Project Showcase
